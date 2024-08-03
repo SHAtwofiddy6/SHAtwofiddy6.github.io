@@ -1,0 +1,42 @@
+
+body, canvas {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: white;
+    z-index: -1; /* Keep the canvas in the background */
+}
+
+header, main {
+    position: relative;
+    z-index: 10; /* Ensure text appears above the canvas */
+    color: #0a467f; /* Dark blue to match logo */
+}
+
+header {
+    background: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    color: #0a467f; /* Dark blue to match logo */
+}
+
+#home-intro h2, #contact h2 {
+    color: #0056b3; /* Slightly brighter blue for visibility */
+}
+    
